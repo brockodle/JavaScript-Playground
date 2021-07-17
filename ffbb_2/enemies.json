@@ -1,0 +1,270 @@
+{
+    "low": {
+        "1": {
+            "name": "Single",
+            "quote": "Only halfa heart attack",
+            "stats": [
+                3,
+                5,
+                2,
+                1,
+                3
+            ],
+            "img": ""
+        },
+        "2": {
+            "name": "Cheeseburger",
+            "quote": "Cow meat on cow milk",
+            "stats": [
+                2,
+                2,
+                3,
+                2,
+                5
+            ],
+            "img": ""
+        },
+        "3": {
+            "name": "Angel Pig",
+            "quote": "Served a greater bacon",
+            "stats": [
+                4,
+                3,
+                2,
+                2,
+                1
+            ],
+            "img": ""
+        },
+        "4": {
+            "name": "Angel Cow",
+            "quote": "Served a greater steakhouse",
+            "stats": [
+                3,
+                5,
+                2,
+                1,
+                3
+            ],
+            "img": ""
+        },
+        "5": {
+            "name": "Angel Fish",
+            "quote": "Just glad she's not dead like her friends",
+            "stats": [
+                3,
+                2,
+                1,
+                3,
+                1
+            ],
+            "img": ""
+        },
+        "6": {
+            "name": "Spice Plants",
+            "quote": "Ronald's potion ingredients",
+            "stats": [
+                3,
+                3,
+                3,
+                2,
+                2
+            ],
+            "img": ""
+        },
+        "7": {
+            "name": "MSG",
+            "quote": "All the flavor you'll ever need",
+            "stats": [
+                3,
+                5,
+                2,
+                1,
+                3
+            ],
+            "img": ""
+        },
+        "8": {
+            "name": "Angel Cat",
+            "quote": "Meow. Lick lick lick",
+            "stats": [
+                3,
+                5,
+                2,
+                1,
+                3
+            ],
+            "img": ""
+        },
+        "9": {
+            "name": "Angel Chicken",
+            "quote": "Served a greater soup broth. (twitch.tv/alpha_bit)",
+            "stats": [
+                2,
+                2,
+                4,
+                5,
+                4
+            ],
+            "img": ""
+        },
+        "10": {
+            "name": "Cracka-cola",
+            "quote": "Best additive. EVER.",
+            "stats": [
+                4,
+                3,
+                3,
+                1,
+                2
+            ],
+            "img": ""
+        },
+        "11": {
+            "name": "Fries",
+            "quote": "Golden deliciousness",
+            "stats": [
+                3,
+                5,
+                2,
+                1,
+                3
+            ],
+            "img": ""
+        }
+    },
+    "med": {
+        "1": {
+            "name": "Single",
+            "quote": "Only halfa heart attack",
+            "stats": [
+                7,
+                7,
+                3,
+                4,
+                7
+            ],
+            "img": ""
+        },
+        "2": {
+            "name": "Cheeseburger",
+            "quote": "Cow meat on cow milk",
+            "stats": [
+                3,
+                3,
+                7,
+                3,
+                7
+            ],
+            "img": ""
+        },
+        "3": {
+            "name": "Angel Pig",
+            "quote": "Served a greater bacon",
+            "stats": [
+                4,
+                7,
+                3,
+                3,
+                4
+            ],
+            "img": ""
+        },
+        "4": {
+            "name": "Angel Cow",
+            "quote": "Served a greater steakhouse",
+            "stats": [
+                7,
+                7,
+                3,
+                4,
+                7
+            ],
+            "img": ""
+        },
+        "5": {
+            "name": "Angel Fish",
+            "quote": "Just glad she's not dead like her friends",
+            "stats": [
+                7,
+                3,
+                4,
+                7,
+                4
+            ],
+            "img": ""
+        },
+        "6": {
+            "name": "Spice Plants",
+            "quote": "Ronald's potion ingredients",
+            "stats": [
+                7,
+                7,
+                7,
+                3,
+                3
+            ],
+            "img": ""
+        },
+        "7": {
+            "name": "MSG",
+            "quote": "All the flavor you'll ever need",
+            "stats": [
+                7,
+                7,
+                3,
+                4,
+                7
+            ],
+            "img": ""
+        },
+        "8": {
+            "name": "Angel Cat",
+            "quote": "Meow. Lick lick lick",
+            "stats": [
+                7,
+                7,
+                3,
+                4,
+                7
+            ],
+            "img": ""
+        },
+        "9": {
+            "name": "Angel Chicken",
+            "quote": "Served a greater soup broth. (twitch.tv/alpha_bit)",
+            "stats": [
+                3,
+                3,
+                4,
+                7,
+                4
+            ],
+            "img": ""
+        },
+        "10": {
+            "name": "Cracka-cola",
+            "quote": "Best additive. EVER.",
+            "stats": [
+                4,
+                7,
+                7,
+                4,
+                3
+            ],
+            "img": ""
+        },
+        "11": {
+            "name": "Fries",
+            "quote": "Golden deliciousness",
+            "stats": [
+                7,
+                7,
+                3,
+                4,
+                7
+            ],
+            "img": ""
+        }
+    }
+}

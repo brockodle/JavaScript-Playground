@@ -1,0 +1,296 @@
+body {
+  font-family:"Josefin Sans", sans-serif;
+  font-size:48pt;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  bottom:0;
+  margin:0 auto;
+}
+.app_shell {
+  margin:0 auto;
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+.title {
+  font-size:1em;
+  clear:both;
+  padding:3%;
+  margin:3%;
+}
+.wide_btn {
+  background-color:#000000;
+  color:#fff;
+  width:91%;
+  margin:2%;
+  padding:2%;
+  font-size:0.9em;
+  clear:both;
+  border:1px solid #000000;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.wide_btn:hover {
+    background-color:#ffffff;
+    color:#000000;
+    border:1px solid #000000;
+}
+.attacks {
+  margin:0 auto;
+  width:100%;
+  float:left;
+}
+.defenses {
+  margin:0 auto;
+  width:100%;
+  float:left;
+}
+.headerA, .headerD {
+  font-size:1em;
+  margin:10px;
+  cursor:pointer;
+  float:left;
+}
+.half_btn {
+  background-color:#000000;
+  width:450px;
+  color:#ffffff;
+  margin:10px;
+  padding:5px;
+  font-size:0.4em;
+  border-radius:5px;
+  float:left;
+  border-radius:3px;
+  text-align:center;
+}
+.half_btn:hover {
+  cursor:pointer;
+  background-color:darkgreen;
+}
+
+.stat_detail {
+    width:100%;
+    clear:both;
+    background-color:#444444;
+    color:#ffffff;
+}
+
+.char_list {
+  margin:0 auto;
+  width:95%;
+}
+
+.char_btn {
+  width:23%;
+  font-size:0.75em;
+  background-color:lavender;
+  border-radius:3px;
+  margin:15px;
+  float:left;
+}
+
+.scale {
+  font-size:0.4em;
+  margin:2px 0;
+  float:left;
+}
+
+.scale_shell {
+  width:100%;
+  height:50px;
+  padding:5px;
+  float:left;
+  color:#ffffff;
+  background-color:#444444;
+  clear:both;
+}
+
+.scale_sta {
+    font-size:0.4em;
+    margin:2px 0;
+    float:left;
+}
+
+.scale_stashl {
+    width:100%;
+    height:50px;
+    float:left;
+    color:#ffffff;
+    background-color:blue;
+    clear:both;
+}
+
+.char_btn img {
+  height:100%;
+  float:left;
+  padding:2px;
+}
+
+.quick_stat {
+  width:150px;
+  padding:5px;
+  font-size:0.25em;
+  position:relative;
+  left:200px;
+  top:-230px;
+  right:0px;
+  bottom:0px;
+  color:#ffffff;
+  background-color:#000000;
+  float:left;
+  border-radius:3px;
+}
+.qstat_txt img {
+  width:32px;
+  float:left;
+  padding:2px;
+}
+.qstat_scl {
+  height:32px;
+  padding:1px;
+}
+
+.char_desc {
+  width:100%;
+  height:auto;
+  text-align:center;
+  padding:5px 0;
+  color:#ffffff;
+  border-radius:3px;
+  background-color:#000000;
+  float:left;
+  margin:0;
+  clear:both;
+}
+
+.char_summ {
+    font-size:0.8em;
+    clear:both;
+    border-top:solid 2px #ffffff;
+    color:#dddddd;
+    padding-top:5px;
+    margin-top:5px;
+}
+
+.versus {
+  width:5%;
+  float:left;
+  font-size:0.35em;
+}
+.stat_list {
+  width:46%;
+  padding:2%;
+  margin:2%;
+}
+
+.music_shell {
+    position:absolute;
+    bottom:0;
+    left:300;
+    font-size:0.5em;
+    border-radius:3px;
+    width:100%;
+    height:50px;
+    color:#000000;
+}
+.music_track {
+    position:relative;
+    cursor:pointer;
+    float:left;
+    clear:both;
+    width:60%;
+    padding:10px;
+}
+.music_track:hover{
+    color:darkorange;
+}
+.prev_btn {
+    width:15%;
+    height:50px;
+    background-color:darkgreen;
+    position:relative;
+    float:left;
+}
+.prev_btn:hover {
+    background-color:green;
+}
+.next_btn {
+    width:15%;
+    height:50px;
+    background-color:maroon;
+    position:relative;
+    float:left;
+}
+.next_btn:hover {
+    background-color:red;
+}
+.stat_name {
+  padding:1%;
+  margin:1%;
+  font-size:0.6em;
+}
+.stat_amt {
+  padding:1% 0;
+  margin:1% 0;
+  font-size:0.7em;
+}
+@media only screen and (max-width: 1280px){
+  .app_shell {
+    margin:0 auto;
+  }
+  .char_btn{
+    margin:5px;
+    width:30%;
+  }
+  .half_btn {
+    width:30%;
+  }
+  .versus {
+    font-size:0.45em;
+    float:left;
+  }
+}
+@media only screen and (max-width: 980px){
+  .half_btn {
+    background-color:#000;
+    width:90%;
+    color:#ffffff;
+    margin:5px auto;
+    padding:10px;
+    font-size:0.25em;
+    clear:both;
+    float:none;
+    border-radius:5px;
+  }
+  .char_btn {
+    width:35%;
+    float:left;
+  }
+}
+@media only screen and (max-width: 680px){
+.quick_stat {
+  width:100%;
+  position:relative;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  border-radius:0;
+}
+  .char_btn{
+    width:96.5%;
+  }
+  
+  .half_btn {
+    background-color:#000;
+    width:85%;
+    color:#fff;
+    margin:5px auto;
+    padding:10px;
+    font-size:0.4em;
+    clear:both;
+    border-radius:5px;
+  }
+}

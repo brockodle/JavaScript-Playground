@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.newnotes {
+    font-size: 11pt;
+    line-height: 24px;
+    width: 96%;
+    padding: 10px 1%;
+    margin: 0 1%;
+}
+
+#mobilebody {
+    width: 100%;
+    height:100%;
+}
+
+.titlemain {
+    font-size:36pt;
+    text-align:center;
+    width:96%;
+    padding:2%;
+}
+
+.charname_in {
+    font-size:14pt;
+    border-radius:3px;
+    border:solid 1px black;
+    width:56%;
+    display:inline-flex;
+    padding:3%;
+    margin:1% 1% 0 0;
+    border:solid 1px #d1e5ff;
+}
+
+.submitbtn {
+    padding:3%;
+    margin:1% 0 0 1%;
+    width:35%;
+    display:table-cell;
+    font-size:14pt;
+    font-family: 'Rajdhani', sans-serif;
+    align-content:center;
+    border:none;
+    border-radius: 3px;
+    background-color:#85a5cc;
+    border:solid 1px #d1e5ff;
+    color:#ffffff;
+}
+
+.charimg {
+    display:flex;
+    width:96%;
+    height:20%;
+    padding:0 1%;
+    margin:5px 1%;
+}
+
+.charscrn_statblock {
+    display:inline-flex;
+    width:95%;
+    margin:3px 2%;
+    font-size:12pt;
+    line-height:24px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    background-color:#d1e5ff;
+}
+
+.statname {
+    display:flex;
+    width:28%;
+    padding:1% 2%;
+    text-align:right;
+    text-transform: uppercase;
+}
+
+.statbar {
+    font-weight:bold;
+    color:white;
+    padding:1% 2%;
+    background-color:green;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.charname {
+    display:flex;
+    font-size:18pt;
+    font-weight:bold;
+}
+
+.charclass {
+    font-size:14pt;
+    display:flex;
+    margin:0 2% 2% 2%;
+    text-transform: uppercase;
+}
+
+.charclassabsshell {
+    width:100%;
+    height:20%;
+    background-color:#eeeeee;
+    border-radius:3px;
+}
+
+.charclassabs {
+    font-size:11pt;
+    width:94%;
+    padding:2%;
+    margin:1%;
+}
+
+.dropdown_race_shell {
+    width:93%;
+    padding:5px 2%;
+    margin:5px 1%;
+    font-size:11pt;
+    background-color:#d1e5ff;
+    border-radius:3px;
+}
+
+.dropdown_race_menu {
+    width:100%;
+    z-index:100;
+    list-style: none;
+}
+
+.dropdown_race_text {
+    display:inline-flex;
+    width:46%;
+    padding:2%;
+    font-size:12pt;
+    text-transform: capitalize;
+    border-radius:3px;
+}
+
+.dropdown_race_text:hover {
+    background-color:#85a5cc;
+    color:#ffffff;
+    text-align:center;
+}

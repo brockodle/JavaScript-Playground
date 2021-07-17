@@ -1,0 +1,23 @@
+body {
+	top:0;
+	bottom:0;
+	position:fixed;
+	font-size:24pt;
+	width:100%;
+}
+.cards {
+	font-family:arial;
+	width:25%;
+	height:25%;
+	font-size:0.7em;
+	float:left;
+	border:solid black 1px;
+	border-radius:3px;
+	margin:1%;
+	padding:2px;
+	-webkit-box-shadow:1px 1px 2px;
+}
+.cards:hover {
+	background-color:#eee;
+	cursor:pointer;
+}

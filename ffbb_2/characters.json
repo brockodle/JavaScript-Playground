@@ -1,0 +1,437 @@
+{
+    "characters": {
+        "1": {
+            "name": "The Burger King",
+            "description": "The Deep-fried Powerhouse",
+            "num": 1,
+            "img": "<img src =\"images/burger_king.png\"  />",
+            "speed": 3,
+            "strength": 9,
+            "stamina": 5,
+            "magicka": 2,
+            "dexterity": 6,
+            "attack": {
+                "1": {
+                    "name": "Hammerburger",
+                    "id": "hb",
+                    "ary": [
+                        350,
+                        300,
+                        12
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Seeds of Fury",
+                    "id": "sof",
+                    "ary": [
+                        200,
+                        125,
+                        33
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "King's Crown",
+                    "id": "kc",
+                    "ary": [
+                        600,
+                        500,
+                        2
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Sesame Shield",
+                    "id": "ss",
+                    "ary": [
+                        250,
+                        300
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Serf",
+                    "id": "serf",
+                    "ary": [
+                        150,
+                        200
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Conspiracy",
+                    "id": "c",
+                    "ary": [
+                        400,
+                        500
+                    ],
+                    "defenseId": 3
+                }
+            }
+        },
+        "2": {
+            "name": "Ronald McDonald",
+            "description": "Master Mage of Frygicka",
+            "num": 2,
+            "img": "<img src =\"images/ronald.png\"  />",
+            "speed": 7,
+            "strength": 3,
+            "stamina": 3,
+            "magicka": 9,
+            "dexterity": 5,
+            "attack": {
+                "1": {
+                    "name": "Smile",
+                    "id": "smile",
+                    "ary": [
+                        400,
+                        350,
+                        2
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Oil Pit",
+                    "id": "op",
+                    "ary": [
+                        200,
+                        125,
+                        40
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "Balloon Animal",
+                    "id": "ba",
+                    "ary": [
+                        600,
+                        500,
+                        3
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Burglar Block",
+                    "id": "bb",
+                    "ary": [
+                        250,
+                        125
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Grimace Grease",
+                    "id": "gg",
+                    "ary": [
+                        400,
+                        400
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Kid's Meal",
+                    "id": "km",
+                    "ary": [
+                        150,
+                        100
+                    ],
+                    "defenseId": 3
+                }
+            }
+        },
+        "3": {
+            "name": "Wendy",
+            "description": "Archeress of the South",
+            "num": 3,
+            "img": "<img src =\"images/wendy.png\"  />",
+            "speed": 7,
+            "strength": 4,
+            "stamina": 5,
+            "magicka": 1,
+            "dexterity": 9,
+            "attack": {
+                "1": {
+                    "name": "Pippy Long-range",
+                    "id": "plr",
+                    "ary": [
+                        500,
+                        400,
+                        1
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Arch of the West",
+                    "id": "aw",
+                    "ary": [
+                        200,
+                        125,
+                        1
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "Chile Barrier",
+                    "id": "cb",
+                    "ary": [
+                        600,
+                        500,
+                        3
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Square Shield",
+                    "id": "ss",
+                    "ary": [
+                        300,
+                        125
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Not Fast Food",
+                    "id": "nff",
+                    "ary": [
+                        150,
+                        75
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Frostie Tips",
+                    "id": "ft",
+                    "ary": [
+                        200,
+                        150
+                    ],
+                    "defenseId": 3
+                }
+            }
+        },
+        "4": {
+            "name": "Carl",
+            "description": "The Unheralded Star",
+            "num": 4,
+            "img": "<img src =\"images/cjr.png\"  />",
+            "speed": 5,
+            "strength": 5,
+            "stamina": 5,
+            "magicka": 4,
+            "dexterity": 6,
+            "attack": {
+                "1": {
+                    "name": "Grill Punch",
+                    "id": "gp",
+                    "ary": [
+                        150,
+                        125,
+                        35
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Like a Diamond",
+                    "id": "ld",
+                    "ary": [
+                        200,
+                        175,
+                        25
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "Shuriken",
+                    "id": "sh",
+                    "ary": [
+                        600,
+                        500,
+                        3
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Star Shield",
+                    "id": "sts",
+                    "ary": [
+                        300,
+                        125
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Artery Clog",
+                    "id": "ac",
+                    "ary": [
+                        150,
+                        75
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Westerner",
+                    "id": "ws",
+                    "ary": [
+                        200,
+                        150
+                    ],
+                    "defenseId": 3
+                }
+            }
+        },
+        "5": {
+            "name": "The Bell",
+            "description": "The Poison Backend",
+            "num": 5,
+            "img": "<img src =\"images/burger_king.png\"  />",
+            "speed": 3,
+            "strength": 4,
+            "stamina": 8,
+            "magicka": 7,
+            "dexterity": 2,
+            "attack": {
+                "1": {
+                    "name": "Bean Burn",
+                    "id": "beb",
+                    "ary": [
+                        100,
+                        25,
+                        90
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Chimichanga Cha-Cha",
+                    "id": "cc",
+                    "ary": [
+                        700,
+                        500,
+                        5
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "Ringout",
+                    "id": "ro",
+                    "ary": [
+                        200,
+                        100,
+                        25
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Crispiness",
+                    "id": "cn",
+                    "ary": [
+                        200,
+                        125
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Gordita Maxima",
+                    "id": "gm",
+                    "ary": [
+                        150,
+                        50
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Gringo",
+                    "id": "gr",
+                    "ary": [
+                        "100%",
+                        300
+                    ],
+                    "defenseId": 3
+                }
+            }
+        },
+        "6": {
+            "name": "Jack T. Boxx",
+            "description": "The Reaper",
+            "img": "<img src =\"images/burger_king.png\"  />",
+            "speed": 5,
+            "strength": 5,
+            "stamina": 2,
+            "magicka": 3,
+            "dexterity": 8,
+            "num": 6,
+            "attack": {
+                "1": {
+                    "name": "Bean Burn",
+                    "id": "beb",
+                    "ary": [
+                        100,
+                        25,
+                        90
+                    ],
+                    "attackId": 1
+                },
+                "2": {
+                    "name": "Chimichanga Cha-Cha",
+                    "id": "cc",
+                    "ary": [
+                        700,
+                        500,
+                        5
+                    ],
+                    "attackId": 2
+                },
+                "3": {
+                    "name": "Ringout",
+                    "id": "ro",
+                    "ary": [
+                        200,
+                        100,
+                        25
+                    ],
+                    "attackId": 3
+                }
+            },
+            "defense": {
+                "1": {
+                    "name": "Crispiness",
+                    "id": "cn",
+                    "ary": [
+                        200,
+                        125
+                    ],
+                    "defenseId": 1
+                },
+                "2": {
+                    "name": "Gordita Maxima",
+                    "id": "gm",
+                    "ary": [
+                        150,
+                        50
+                    ],
+                    "defenseId": 2
+                },
+                "3": {
+                    "name": "Gringo",
+                    "id": "gr",
+                    "ary": [
+                        "100%",
+                        300
+                    ],
+                    "defenseId": 3
+                }
+            }
+        }
+    },
+    "charId": 1
+}

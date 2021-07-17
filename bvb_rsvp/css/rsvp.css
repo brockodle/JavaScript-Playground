@@ -1,0 +1,169 @@
+* {
+    font-family:"Roboto", sans-serif;
+    font-size:14pt;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+.ui-mobile-viewport {
+    top:0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.ui-loader {
+    display:none !important;
+}
+
+focus {
+    border:none;
+}
+
+#bg{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+
+.header {
+    width:100%;
+}
+
+.buttonrow {
+    width:96%;
+    padding:2%;
+    display:inline-block;
+    align-items: center;
+}
+
+.tablewindow {
+    width:42%;
+    padding:3%;
+    margin:2px 1%;
+    background-color:#c3e0ea;
+    border-radius:5px;
+    display:inline-block;
+    z-index:10;
+}
+
+.tablehover {
+    opacity:0.8;
+}
+
+.tablebtn {
+    width:94%;
+    padding:3% 2%;
+    text-align:center;
+    margin:5px 1%;
+    background-color:#726658;
+    border-radius:5px;
+    cursor:pointer;
+    color:#ffffff;
+    display:inline-block;
+}
+
+.tablebtn:hover {
+    opacity:0.8;
+}
+
+.addplshell {
+    width:94%;
+    padding:3%;
+    background-color:#777777;
+    border-radius:5px;
+}
+
+.addbtn {
+    width:94%;
+    padding:4% 2%;
+    text-align:center;
+    margin:0 1%;
+    background-color:#8FC63E;
+    border-radius:5px;
+    cursor:pointer;
+    color:#000000;
+    display:inline-block;
+}
+
+.addbtn:hover {
+    opacity:0.8;
+}
+
+#namefield {
+    width:93%;
+    padding:2%;
+    text-align:center;
+    margin:1%;
+    display:inline-block;
+    border-radius:3px;
+}
+
+.playerbtn {
+    text-align:center;
+    vertical-align: middle;
+    color:#ffffff;
+    width:69%;
+    padding:4% 2%;
+    margin:1%;
+    border-radius:5px;
+    display:inline-block;
+    z-index:50;
+}
+
+.playerbtn:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.gamecounter {
+    text-align:center;
+    color:#ffffff;
+    width:94%;
+    padding:3%;
+    border-radius:5px;
+    display:inline-block;
+    background-color:darkgreen;
+    text-transform:uppercase;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+
+.gamecounter:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.hovertab {
+    opacity:0.8;
+}
+
+.cambtn {
+    display:inline-block;
+    text-align:center;
+    margin:0 auto;
+    width:19%;
+    padding:3%;
+    height:100%;
+    background-color:darkgreen;
+    border-radius:3px;
+    z-index:100;
+}
+
+@media screen and (max-width: 800px) {
+	* {
+		font-size: 24pt;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	* {
+		font-size: 11pt;
+	}
+}

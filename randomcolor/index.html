@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="utf-8">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style>
+        .square {
+            width: 100%;
+            height: 500px;
+            margin:10px;
+            border: solid 5px #000000;
+        }
+    </style>
+    <script>
+        var rando_square = function(){
+                var rando1 = Math.round(Math.random()*255);
+                var rando2 = Math.round(Math.random()*255);
+                var rando3 = Math.round(Math.random()*255);
+                
+                console.log(rando1,rando2,rando3);
+        var square = $("<div>")
+            .attr("class","square")
+            .appendTo("body");
+            
+            console.log("square successful");
+            
+            square.css({"background-color":"rgb(" + rando1 + "," + rando2 + "," + rando3 + ")"});
+            
+        }
+    </script>
+
+    <body onload="rando_square();">
+
+    </body>
+
+</html>

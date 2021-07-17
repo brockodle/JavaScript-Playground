@@ -1,0 +1,44 @@
+{
+    "soundtrack":{
+        "0":{
+            "name":"yells",
+            "v":"sound/soundtrack07.mp3",
+            "id":"0"
+        },
+        "1":{
+            "name":"Day Trippin'",
+            "v":"sound/soundtrack00.mp3",
+            "id":"1"
+        },
+        "2":{
+            "name":"ElektroKlash",
+            "v":"sound/soundtrack01.m4a",
+            "id":"2"
+        },
+        "3":{
+            "name":"Reprise from Neon",
+            "v":"sound/soundtrack02.m4a",
+            "id":"3"
+        },
+        "4":{
+            "name":"Band Practice",
+            "v":"sound/soundtrack03.mp3",
+            "id":"4"
+        },
+        "5":{
+            "name":"Bring It On",
+            "v":"sound/soundtrack04.mp3",
+            "id":"5"
+        },
+        "6":{
+            "name":"Raveheart",
+            "v":"sound/soundtrack05.mp3",
+            "id":"6"
+        },
+        "7":{
+            "name":"Shift of Chaos",
+            "v":"sound/soundtrack06.mp3",
+            "id":"7"
+        }
+    }
+}
